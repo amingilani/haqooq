@@ -15,7 +15,7 @@ const IndexPage = () => (<Layout>
         <div className="columns">
           <div className="column is-3 content">
             <ol>
-              <li>Lorem Ipsum non Sequitor</li>
+              <li><Link to="/law/constitution/toc">Constitution of Pakistan</Link></li>
               <li>Lorem Ipsum non Sequitor</li>
               <li>Lorem Ipsum non Sequitor</li>
               <li>Lorem Ipsum non Sequitor</li>

@@ -1,0 +1,13 @@
+ol[type="a"] {
+    counter-reset: list;
+}
+
+ol[type="a"] > li {
+    list-style: none;
+}
+
+ol[type="a"] > li:before {
+    counter-increment: list;
+    content: "(" counter(list, lower-alpha) ") ";
+
+}
