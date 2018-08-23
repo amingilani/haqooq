@@ -13,11 +13,11 @@ const IndexPage = () => (<Layout>
         <div class="content">
           <ol start="0">
             <li>
-              <a href="/law/constitution/preamble">Preamble</a>
+              <Link to="/law/constitution/preamble">Preamble</Link>
             </li>
 
             <li>
-              <a href="/law/constitution/part-1">Part I: Introductory</a>&nbsp;
+              <Link to="/law/constitution/part-1">Part I: Introductory</Link>&nbsp;
               <em>[Articles 1&ndash;6]</em>&nbsp;</li>
 
             <li>
