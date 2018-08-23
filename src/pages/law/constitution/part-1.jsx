@@ -7,7 +7,7 @@ const IndexPage = () => (<Layout>
   <div className="container">
     <div className="columns">
       <article className="column content">
-        <h1>Part 1</h1>
+        <h1>Part 1 &mdash; Introductory</h1>
 
         <article class="card">
           <div class="card-header">
