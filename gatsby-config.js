@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/haqooq`,
+  pathPrefix: process.env.NODE_ENV === 'production' ? '/haqooq' : undefined,
   siteMetadata: {
     title: 'Haqooq',
   },
